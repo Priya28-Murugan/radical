@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   output: "export",
+  basePath: "/radical",
+  assetPrefix: "/radical/",
   images: {
-    unoptimized: true, // 👈 needed for GitHub Pages
+    unoptimized: true,
   },
 };
 
